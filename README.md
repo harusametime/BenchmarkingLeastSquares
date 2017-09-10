@@ -21,4 +21,4 @@ This reports performance of libraries for solving *Ax =b* in the least-squares s
 
 Matrix size| Density | Scipy LSQR | PySPQR| PySParse |
 |:--------:|:-------:|:----------:|:-----:|:-----:|
-|2000 x 1000| 0.1    |            |4.96 sec. |      |
+|2000 x 1000| 0.1    | 0.038 sec |4.996 sec. |      |
