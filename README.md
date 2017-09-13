@@ -21,7 +21,7 @@ This reports performance of libraries for solving *Ax =b* in the least-squares s
 # Results
 
 
-Matrix size| Density | Criteria| Scipy LSQR | PySPQR| PySParse |CVXPY+SCS
-|:--------:|:-------:|:--------:|:----------:|:-----:|:-----:|:--------:|
-|2000 x 1000| 0.1    | **Time** | 0.038 sec |4.996 sec. |      |0.36 sec.|
-|           |        | **Error** | |2.01e-13 |      |0.0021|
+Matrix size| Density | Criteria| Scipy LSQR | Scipy LSMR |PySPQR| PySParse |CVXPY+SCS
+|:--------:|:-------:|:--------:|:----------:|:-----:|:-----:|:-----:|:--------:|
+|2000 x 1000| 0.1    | **Time** | 0.038 sec | 0.016 sec|4.996 sec. |      |0.36 sec.|
+|           |        | **Error** | |0.0012 |2.01e-13 |     |0.0021|
